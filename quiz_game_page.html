@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 1</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<link rel="stylesheet" type="text/css" href="Quiz_game.css">
+
+<body class="body-background">
+    <!-- class="body_backgorund"-->    
+
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+    
+
+    <div class="container">
+        <center>
+            <h2 style="color: rgb(201, 48, 48);">The Math Quiz Game!</h2>
+
+           
+                <h3 id="player_question"> Question turn - </h3>
+                  
+
+            <br>
+
+           
+                <h3 id="player_answer">Answer Turn - </h3>
+                
+            <br>
+            <br>
+
+            <div id="outputtup">
+                <div>
+                    <label id="ques">6 X 4</label>
+                </div>
+
+                <br>
+
+                <div>
+                <input type="text" id="ans">
+                </div>
+
+                <br>
+
+                <div> 
+                <button class="btn btn-success">Check your Answer</button>
+                </div>
+
+            </div>
+
+            <br>
+            <br>
+
+            <label>Number 1</label>
+
+            <br>
+
+            <input id="no.1" class="form-control" placeholder="No.1"></input>
+
+            <br>
+            <br>
+
+            <label>Number 2</label>
+
+            <input id="no.2" class="form-control" placeholder="No.2"></input>
+
+            <br>
+
+            <button onclick="send()" class="btn btn-success" style="width: 30%;"></button>
+
+            </center>
+
+            <script src="quiz_game_page.js"></script>
+
+            </div>
+
+            </body>
+
+            </html>
